@@ -1,10 +1,10 @@
 {
-    "name": "doker42/ajax-catalog",
+    "name": "vitchedev/ajax-catalog",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Doker42",
+            "name": "Vitchedev",
             "email": "doker42@gmail.com"
         }
     ],
