@@ -4,10 +4,35 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Vit Che",
+            "name": "Doker42",
             "email": "doker42@gmail.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=7.0",
+        "edaregion/seomodule": "dev-master",
+        "edaregion/ckeditor": "dev-master",
+        "edaregion/breadcrumbs": "dev-master",
+        "maatwebsite/excel": "~2.1.0",
+        "behat/transliterator": "^1.0",
+        "laracasts/utilities": "^3.0",
+        "predis/predis": "^1.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/leaditteam/edaregion-fileupload.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/leaditteam/edaregion-seomodule.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Doker42\\AjaxCatalog\\": "src/"
+        },
+        "files": ["ajax_catalog_helpers.php"]
+    }
 }
