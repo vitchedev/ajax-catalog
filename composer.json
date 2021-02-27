@@ -1,0 +1,13 @@
+{
+    "name": "doker42/ajax-catalog",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vit Che",
+            "email": "doker42@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
